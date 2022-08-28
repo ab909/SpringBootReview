@@ -58,6 +58,10 @@ public class LibraryController {
             throw new ResponseStatusException(HttpStatus.NOT_FOUND);
         }
     }
+    @GetMapping("getBooks/author")
+    public void getBooksByAuthor(@RequestParam(value = "authorname")String authorname){
+
+    }
 
 
 }
