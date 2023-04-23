@@ -20,7 +20,7 @@ public class GreetingController {
 
 
         greeting.setId(atomicLong.incrementAndGet());
-        greeting.setContent("Hey, I'm doing a spring boot test " + name);
+        greeting.setContent("Hey, I'm doing a spring boot test now " + name);
 
         return greeting;
 
